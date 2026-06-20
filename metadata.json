@@ -1,0 +1,6 @@
+{
+  "name": "430.me",
+  "description": "A creative, content-rich micro-encyclopedia exploring the cultural, technical, and scientific significance of the number 430. Domain for sale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
