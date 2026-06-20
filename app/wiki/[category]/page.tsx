@@ -262,7 +262,7 @@ export default async function WikiCategoryPage({ params }: { params: Promise<{ c
             {horizontalCrosslinks.map((cross) => (
               <Link 
                 key={cross.id}
-                href={`/wiki/${cross.id}`}
+                href={`/wiki/${cross.id}/`}
                 className="group p-5 border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] hover:border-violet-accent/40 transition-all rounded-sm flex flex-col justify-between"
               >
                 <div>

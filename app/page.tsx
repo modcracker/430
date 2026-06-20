@@ -137,7 +137,7 @@ export default function Home() {
                     </a>
                     <span className="text-neutral-800">&bull;</span>
                     <Link 
-                      href={`/wiki/${section.id}`}
+                      href={`/wiki/${section.id}/`}
                       className="text-violet-accent hover:underline text-[11px]"
                     >
                       Deep Dive Entry
@@ -154,22 +154,22 @@ export default function Home() {
               </h4>
               <ul className="flex flex-col gap-2.5 text-xs font-mono">
                 <li>
-                  <Link href="/pitch/developers" className="text-violet-accent hover:underline">
+                  <Link href="/pitch/developers/" className="text-violet-accent hover:underline">
                     &rarr; Developers &amp; APIs
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pitch/productivity" className="text-violet-accent hover:underline">
+                  <Link href="/pitch/productivity/" className="text-violet-accent hover:underline">
                     &rarr; 4:30 AM App Founders
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pitch/scientific-brands" className="text-violet-accent hover:underline">
+                  <Link href="/pitch/scientific-brands/" className="text-violet-accent hover:underline">
                     &rarr; Photonic &amp; Solar Tech
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pitch/domain-investors" className="text-violet-accent hover:underline">
+                  <Link href="/pitch/domain-investors/" className="text-violet-accent hover:underline">
                     &rarr; Strategic Domain Investors
                   </Link>
                 </li>

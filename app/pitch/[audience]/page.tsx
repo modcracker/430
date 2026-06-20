@@ -265,7 +265,7 @@ export default async function PitchAudiencePage({ params }: { params: Promise<{ 
             {otherPitches.map((other) => (
               <Link
                 key={other.id}
-                href={`/pitch/${other.id}`}
+                href={`/pitch/${other.id}/`}
                 className="group p-5 border border-white/5 bg-white/[0.01] hover:bg-white/[0.03] hover:border-violet-accent/40 transition-all rounded-sm flex flex-col justify-between"
               >
                 <div>
